@@ -33,7 +33,7 @@ namespace ValidateMe
     class Validation
     {
         private const string nameRegexPattern               = @"^[A-Z][a-z]{4,29}$";
-        private const string emailRegexPattern              = "^(([A-Za-z0-9]){1,30})+[@]+[a-zA-Z]{5,10}([.])+([A-Za-z.]{3,5})$";
+        private const string emailRegexPattern              = @"^(([A-Za-z0-9]){1,30})+[@]+[a-zA-Z]{5,10}([.])+([A-Za-z.]{3,5})$";
         private const string telephoneNumberRegexPattern    = @"^([(]?\d{3})[)-]\d{3}[-]\d{4}$";
         private const string dateRegexPattern               = @"^(\d\d)+[/]+(\d{2})[/](\d){4}$";
 
